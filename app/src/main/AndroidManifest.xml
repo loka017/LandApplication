@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LandApplication">
         <activity
+            android:name=".VeiwRoomDetailActivity"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
